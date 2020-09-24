@@ -6,21 +6,21 @@
 /*   By: nneronin <nneronin@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/10 06:19:19 by nneronin          #+#    #+#             */
-/*   Updated: 2020/06/23 13:05:52 by nneronin         ###   ########.fr       */
+/*   Updated: 2020/09/24 18:06:26 by nneronin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_H
 # define FRACTOL_H
 
-# include "./libft/libft.h"
-# include "./libft/get_next_line.h"
+# include "./lib/libft/libft.h"
+# include "./lib/libft/get_next_line.h"
 # include "./mlx/mlx.h"
 # include <math.h>
 # include <pthread.h>
 
-# define WIDTH 1200
-# define HEIGHT 1200
+# define WIDTH 1920
+# define HEIGHT 1080
 # define THREADS 8
 # define MAX_ITER 50
 # define COLORS 6

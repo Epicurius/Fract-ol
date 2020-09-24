@@ -6,7 +6,7 @@
 #    By: nneronin <nneronin@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/06/09 07:31:15 by nneronin          #+#    #+#              #
-#    Updated: 2020/06/23 12:42:53 by nneronin         ###   ########.fr        #
+#    Updated: 2020/09/24 18:05:56 by nneronin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,22 +21,21 @@ SRCS = ./srcs/main.c\
 	   ./srcs/draw.c\
 	   ./srcs/error_msg.c
 OBJS = $(SRCS:.c=.o)
-INCLUDES = ./libft/libft.a
+INCLUDES = ./lib/libft/libft.a
 ERROR_MSG = ./error_msg.h
 FLAGS = -Wall -Wextra -Werror
 
 all: $(NAME)
 
 $(NAME):
-	make -C ./libft/
 	@gcc -o $(NAME) $(SRCS) $(FLAGS) $(INCLUDES) -L./mlx/ -lmlx -pthread -framework OpenGL -framework AppKit
-	@echo "$(NAME) was created."
+	@echo "$(NAME) was successfully created."
 clean:
-	/bin/rm -f $(OBJS)
-	make -C ./libft/ clean
+	@/bin/rm -f $(OBJS)
+	@echo "$(NAME) was cleaned."
+
 fclean: clean
-	/bin/rm -f $(NAME)
-	make -C ./libft/ fclean
+	@/bin/rm -f $(NAME)
 
 re: fclean all
 
