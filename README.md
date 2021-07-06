@@ -4,7 +4,7 @@ A multi-threaded fractal visualizer with 4 different fractals and many ways to v
 
 ## Usage
 ```sh
-git clone --recurse-submodules https://github.com/Epicurius/Fract-ol.git && cd fractal_explorer && make
+git clone --recurse-submodules https://github.com/Epicurius/Fract-ol.git && cd fract-ol && make
 ./fractol
 ```
 
