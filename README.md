@@ -12,17 +12,17 @@ git clone --recurse-submodules https://github.com/Epicurius/Fract-ol.git && cd f
 
 ## Features:
 
-Multithreaded
-Zooming in with mouse scroll
-Moving towards mouse when zooming
-Panning with arrows
-Mouse movement controls for both Julia fractals
-Randomized color palets.
-Adjustable color palette size
-Smooth colors
-Adjustable max iteration limit
-Adjustable iterations.
-Help menu 'H'
+- Multithreaded
+- Zooming in with mouse scroll
+- Moving towards mouse when zooming
+- Panning with arrows
+- Mouse movement controls for both Julia fractals
+- Randomized color palets.
+- Adjustable color palette size
+- Smooth colors
+- Adjustable max iteration limit
+- Adjustable iterations.
+- Help menu 'H'
 
 ![Infinity](Images/infinity.png)
 
