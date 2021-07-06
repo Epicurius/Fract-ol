@@ -36,7 +36,7 @@ Edit following macros in the `fractol.h` file.
 # define MAX_ITER 50
 # define COLORS 6
 ```
-![MoreLSD](Images/LSD.png)
+![MoreLSD](Images/MoreLSD.png)
 
 ## Constraints
 This project was made as part of the graphics branch in Hive Helsinki.
