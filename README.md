@@ -1,12 +1,14 @@
 # Fractal Visualizer in C
 
 A multi-threaded fractal visualizer with 4 different fractals and many ways to view them.
+![Mandelbrot](Images/mandelbrot.png)
 
 ## Usage
 ```sh
 git clone --recurse-submodules https://github.com/Epicurius/Fract-ol.git && cd fract-ol && make
 ./fractol
 ```
+![Julia](Images/Pretty.png)
 
 ## Features:
 
@@ -22,6 +24,8 @@ Adjustable max iteration limit
 Adjustable iterations.
 Help menu 'H'
 
+![Infinity](Images/infinity.png)
+
 ### Headers
 Edit following macros in the `fractol.h` file.
 `HEIGHT % THREADS` should be `0.`
@@ -32,6 +36,7 @@ Edit following macros in the `fractol.h` file.
 # define MAX_ITER 50
 # define COLORS 6
 ```
+![MoreLSD](Images/LSD.png)
 
 ## Constraints
 This project was made as part of the graphics branch in Hive Helsinki.
